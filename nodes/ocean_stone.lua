@@ -9,28 +9,33 @@ minetest.register_node("xocean:ocean_cobble", {
 	description = "Ocean Cobblestone",
 	tiles = { "xocean_cobble.png" },
 	groups = { cracky = 3 },
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("xocean:ocean_carved", {
 	description = "Carved Ocean Stone",
 	tiles = { "xocean_carved.png" },
 	groups = { cracky = 2 },
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("xocean:ocean_circular", {
 	description = "Circular Ocean Stone",
 	tiles = { "xocean_circular.png" },
 	groups = { cracky = 2 },
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("xocean:ocean_pillar", {
 	description = "Ocean Pillar",
 	tiles = { "xocean_pillar.png" },
 	groups = { cracky = 2 },
+	sounds = default.node_sound_stone_defaults(),
 })
 
 minetest.register_node("xocean:ocean_brick", {
 	description = "Ocean Brick",
 	tiles = { "xocean_brick.png" },
 	groups = { cracky = 2 },
+	sounds = default.node_sound_stone_defaults(),
 })

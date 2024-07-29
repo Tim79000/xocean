@@ -132,6 +132,7 @@ register_plant("xocean:seagrass", {
 			{ -4 / 16, 0.5, -4 / 16, 4 / 16, 1.5, 4 / 16 },
 		},
 	},
+	sounds = default.node_sound_leaves_defaults(),
 })
 
 register_plant("xocean:pickle", {
@@ -146,4 +147,5 @@ register_plant("xocean:pickle", {
 		},
 	},
 	light_source = 3,
+	sounds = default.node_sound_leaves_defaults(),
 })

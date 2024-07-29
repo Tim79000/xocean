@@ -15,4 +15,5 @@ minetest.register_node("xocean:kelp_block", {
 	tiles = { "xocean_kelp_block.png" },
 	groups = { snappy = 3 },
 	drop = "xocean:kelp 9",
+	sounds = default.node_sound_leaves_defaults(),
 })
